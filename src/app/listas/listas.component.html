@@ -1,0 +1,13 @@
+<div class="card text-center bg-light mb-2 mr-2">
+    
+    <div class="card-body">
+        <h5 class="card-title">Nombre</h5>
+        <p>{{playlist.name}}</p>
+        <p class="card-text">Autor</p>
+        <p>{{playlist.author}}</p>
+        <p class="card-text">Canciones</p>
+        {{ getSongByIds(playlist.songs)}}
+        
+        
+    </div>
+</div>
